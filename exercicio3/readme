@@ -1,0 +1,7 @@
+Objetivo: Praticar a conversão de strings JSON para objetos JavaScript e vice-versa.
+
+Tarefa:
+
+Implemente a função para o botão "Adicionar Propriedade"
+Implemente a função para o botão "Converter para JSON"
+Certifique-se de tratar casos em que objetoAtual3 seja null

@@ -1,0 +1,7 @@
+Objetivo: Começar a entender como exibir dados JSON no DOM.
+
+Tarefa:
+
+Examine o código acima e entenda como funciona 
+Adicione mais duas propriedades ao objeto JSON: "profissão" e "cidade"
+Atualize o HTML para exibir também essas novas propriedades

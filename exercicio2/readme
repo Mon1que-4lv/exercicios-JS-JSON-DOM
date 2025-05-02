@@ -1,0 +1,7 @@
+Objetivo: Aprender a percorrer arrays de objetos JSON para exibição.
+
+Tarefa:
+
+Complete o código acima para exibir todos os usuários do array
+Cada usuário deve ser exibido em um elemento com a classe "card"
+Exiba id, nome, email e idade de cada usuário

@@ -1,0 +1,8 @@
+Objetivo: Clicar em um item para ver detalhes completos.
+
+Tarefa:
+
+Implemente a função carregarDetalhesUsuario8 para mostrar detalhes completos de um usuário
+Adicione loading e tratamento de erros
+Formate o endereço para exibir rua, complemento, cidade e CEP em linhas separadas
+Adicione também um link clicável para o website do usuário

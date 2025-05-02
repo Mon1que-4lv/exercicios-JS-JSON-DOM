@@ -1,0 +1,7 @@
+Objetivo: Aprender a fazer requisições para APIs e processar os dados recebidos.
+
+Tarefa:
+
+Complete o código para exibir os usuários retornados pela API
+Cada card deve exibir: nome, email e nome da empresa do usuário
+Adicione também o telefone e website aos cards

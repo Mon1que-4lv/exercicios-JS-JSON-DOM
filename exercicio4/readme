@@ -1,0 +1,8 @@
+Objetivo: Aprender a filtrar dados de um array JSON com base em critérios
+
+Tarefa:
+
+Implemente a função para o botão "Aplicar Filtro"
+O filtro deve considerar tanto o nome do produto quanto a categoria selecionada
+A busca por nome deve ser case-insensitive (não diferenciar maiúsculas/minúsculas)
+Se nenhuma categoria estiver selecionada, considere todas as categorias

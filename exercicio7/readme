@@ -1,0 +1,7 @@
+Objetivo: Implementar uma paginação simples para exibir posts.
+
+Tarefa:
+
+Complete o código para habilitar/desabilitar botões de navegação corretamente
+Implemente a função para o botão "Próxima"
+Adicione algum indicador visual nos cards para mostrar o ID do post

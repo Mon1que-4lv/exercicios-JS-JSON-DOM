@@ -1,0 +1,8 @@
+Objetivo: Criar um filtro que atualiza a lista em tempo real conforme o usuário digita.
+
+Tarefa:
+
+Implemente a função filtrarUsuarios9 para filtrar a lista de usuários em tempo real
+O filtro deve considerar tanto o nome quanto o email dos usuários
+A busca deve ser case-insensitive
+Adicione um contador mostrando quantos usuários correspondem ao filtro atual

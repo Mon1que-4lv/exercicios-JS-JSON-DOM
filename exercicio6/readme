@@ -1,0 +1,8 @@
+Objetivo: Criar uma função semelhante à do exercício anterior, mas agora para posts.
+
+Tarefa:
+
+Implemente completamente a função para carregar posts da API
+Use uma estrutura semelhante à do exercício anterior (loading, tratamento de erros)
+Limite a 8 posts usando a URL fornecida
+Cada card deve exibir o título e o corpo do post
