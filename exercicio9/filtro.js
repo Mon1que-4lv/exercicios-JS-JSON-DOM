@@ -1,4 +1,4 @@
-// Exercício 9: Filtro em Tempo Real
+// Exercício 9: Filtro em Tempo Real.
 let todosUsuarios9 = [];
 
 async function carregarUsuarios9() {
@@ -53,6 +53,12 @@ function exibirUsuarios9(usuarios) {
 function filtrarUsuarios9(termo) {
     // Filtrar todosUsuarios9 com base no termo (nome ou email)
     // Chamar exibirUsuarios9 com o resultado da filtragem
+    const termoFiltrado = termo.toLowerCase();
+    const usuariosFiltrados = todosUsuarios9.filter(usuario =>
+        usuario.name.toLowerCase().includes(termoFiltrado) ||
+        usuario.email.toLowerCase().includes(termoFiltrado)
+    );
+    exibirUsuarios9(usuariosFiltrados);
 }
 
 // Configuração do campo de filtro

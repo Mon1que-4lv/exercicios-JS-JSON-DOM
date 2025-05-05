@@ -1,5 +1,5 @@
 // Exercício 3: Conversão entre String JSON e Objeto
-let objetoAtual3 = {};
+let objetoAtual3 = null;
 
 // Esta função já está implementada para você
 document.getElementById('parsearJSON3').addEventListener('click', function() {
@@ -26,12 +26,39 @@ document.getElementById('parsearJSON3').addEventListener('click', function() {
 
 // 1. Implemente o evento para o botão "Adicionar Propriedade"
 // Deve adicionar uma nova propriedade "email" ao objeto
-document.getElementById('modificarObjeto3').addEventListener('click', function() {
-    // Seu código aqui
+document.getElementById('modificarObjeto3').addEventListener('click', function () {
+    const resultadoDiv = document.getElementById('resultado3');
+
+    if (!objetoAtual3 || typeof objetoAtual3 !== 'object') {
+        resultadoDiv.innerHTML = `
+            <p class="error">Erro: objeto ainda não foi carregado. Por favor, converta a string JSON primeiro.</p>
+        `;
+        return;
+    }
+
+    objetoAtual3.email = "joao.silva@email.com";
+
+    resultadoDiv.innerHTML = `
+        <p>Propriedade "email" adicionada com sucesso!</p>
+        <pre>${JSON.stringify(objetoAtual3, null, 2)}</pre>
+    `;
 });
 
 // 2. Implemente o evento para o botão "Converter para JSON"
-// Deve converter o objeto modificado de volta para string JSON
-document.getElementById('voltarParaJSON3').addEventListener('click', function() {
-    // Seu código aqui
+document.getElementById('voltarParaJSON3').addEventListener('click', function () {
+    const resultadoDiv = document.getElementById('resultado3');
+
+    if (!objetoAtual3 || typeof objetoAtual3 !== 'object') {
+        resultadoDiv.innerHTML = `
+            <p class="error">Erro: objeto ainda não foi carregado. Por favor, converta a string JSON primeiro.</p>
+        `;
+        return;
+    }
+
+    const jsonString = JSON.stringify(objetoAtual3, null, 2);
+
+    resultadoDiv.innerHTML = `
+        <p>Objeto convertido novamente para JSON:</p>
+        <pre>${jsonString}</pre>
+    `;
 });
